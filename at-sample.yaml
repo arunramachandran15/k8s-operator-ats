@@ -1,0 +1,7 @@
+apiVersion: cnat.my.domain/v1alpha1
+kind: At
+metadata:
+  name: at-sample111
+spec:
+  schedule: "2020-01-30T10:02:00Z"
+  command: 'ec12ho "Something from the past told me to do this now."'
